@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Background from "/public/assets/raja-ampat";
+import Background from "/public/assets/raja-ampat.jpg";
 
 const Pulau = () => {
     return(
