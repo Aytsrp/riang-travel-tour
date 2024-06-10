@@ -8,7 +8,7 @@ const Navbar = () => {
     <div className="drawer">
       <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
       <div className="drawer-content flex flex-col">
-        <div className="navbar bg-base-100 text-neutral border-b-2">
+        <div className="navbar bg-white text-black border-b-2">
           <div className="navbar-start">
             <div className="flex-none lg:hidden">
               <label
@@ -38,15 +38,28 @@ const Navbar = () => {
 
           <div className="navbar-center hidden lg:flex">
             <ul className="menu menu-horizontal px-1 font-bold">
-              <li>
-                <Link href="/">Tentang Kami</Link>
-              </li>
-              <li>
-                <Link href="/">Visi dan Misi</Link>
-              </li>
-              <li>
-                <Link href="/">Produk Kami</Link>
-              </li>
+            <li>
+                <Link href="/">Beranda</Link>
+            </li>
+            <li>
+                <details>
+                  <summary>Paket Pariwisata</summary>
+                  <ul className="p-2 bg-primary text-black rounded-t-none">
+                    <li>
+                      <Link href="/paket/gunung">Paket Gunung</Link>
+                    </li>
+                    <li>
+                      <Link href="/paket/bali">Paket Pulau Bali</Link>
+                    </li>
+                    <li>
+                      <Link href="/paket/pulau">Paket Kepulauan</Link>
+                    </li>
+                  </ul>
+                </details>
+            </li>
+            <li>
+                <Link href="/testimoni">Testimoni</Link>
+            </li>
             </ul>
           </div>
           <div className="navbar-end">
@@ -65,21 +78,34 @@ const Navbar = () => {
           aria-label="close sidebar"
           className="drawer-overlay"
         ></label>
-        <ul className="menu w-80 min-h-full bg-base-100 text-neutral z-10 font-bold gap-y-2">
+        <ul className="menu w-80 min-h-full bg-white text-black z-10 font-bold gap-y-2">
           <div className="p-8 border-b-4">
             <Link href="/">
               <Image src={Logo} alt="Logo Wonderful Indonesia" />
             </Link>
           </div>
           <li>
-            <Link href="/">Tentang Kami</Link>
-          </li>
-          <li>
-            <Link href="/">Visi dan Misi</Link>
-          </li>
-          <li>
-            <Link href="/">Produk Kami</Link>
-          </li>
+                <Link href="/">Beranda</Link>
+              </li>
+              <li>
+                <details>
+                  <summary>Paket Pariwisata</summary>
+                  <ul className="p-2 bg-primary text-black rounded-t-none">
+                    <li>
+                      <Link href="/paket/gunung">Paket Gunung</Link>
+                    </li>
+                    <li>
+                      <Link href="/paket/bali">Paket Pulau Bali</Link>
+                    </li>
+                    <li>
+                      <Link href="/paket/pulau">Paket Kepulauan</Link>
+                    </li>
+                  </ul>
+                </details>
+            </li>
+              <li>
+                <Link href="/testimoni">Testimoni</Link>
+              </li>
         </ul>
       </div>
     </div>

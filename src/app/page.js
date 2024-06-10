@@ -4,12 +4,12 @@ import Content from "@/components/body/content/page";
 import About from "@/components/body/about/page";
 
 const Home = () => {
-  return(
+  return (
     <>
-      <Jumbotron/>
-      <Purpose/>
-      <Content/>
-      <About/>
+      <Jumbotron />
+      <Purpose />
+      <Content />
+      <About />
     </>
   );
 };

@@ -1,9 +1,10 @@
-import Image from "next/image";
-import Background from "/public/assets/background.jpg";
-import Logo from "/public/assets/logo2.png";
-const Jumbotron = () => {
-  return (
-    <div
+import Link from "next/link";
+import Background from "/public/assets/raja-ampat";
+
+const Pulau = () => {
+    return(
+        <>
+        <div
       className="hero min-h-screen"
       style={{
         backgroundImage:
@@ -14,17 +15,23 @@ const Jumbotron = () => {
       <div className="hero-content text-center text-white">
         <div className="max-w-md">
           <div className="flex flex-col justify-center items-center pb-8">
-          <Image src={Logo} width={320}/>
-          <h1 className="mb-5 text-5xl font-bold">Tour &amp; Travel</h1>
+          <h1 className="mb-5 text-5xl font-bold">Paket Kepulauan</h1>
           <p className="mb-5">
             Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
             excepturi exercitationem quasi. In deleniti eaque aut repudiandae et
             a id nisi.
           </p>
+          <Link
+              className="btn btn-accent text-primary"
+              href="https://wa.me/0895424009364?text=Saya%20berminat%20menggunakan%20jasa%20Riang%20Tour%20and%20Travel"
+            >
+              Hubungi Kami!
+            </Link>
           </div>
         </div>
       </div>
     </div>
-  );
-};
-export default Jumbotron;
+        </>
+    )
+}
+export default Pulau;

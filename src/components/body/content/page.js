@@ -5,7 +5,7 @@ import Pic4 from "/public/assets/bromo.jpg";
 
 const Content = () => {
   return (
-    <div className="min-h-screen grid grid-cols-2 xl:grid-cols-4 justify-center items-center bg-primary text-white">
+    <div className="min-h-screen grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 justify-center items-center bg-primary text-white">
       <div
         className="hero min-h-screen"
         style={{ backgroundImage: `url(${Pic1.src})` }}
@@ -15,9 +15,7 @@ const Content = () => {
           <div className="max-w-md">
             <h1 className="mb-5 text-4xl font-bold uppercase">Prambanan</h1>
             <p className="mb-5 text-sm">
-              Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-              excepturi exercitationem quasi. In deleniti eaque aut repudiandae
-              et a id nisi.
+              Terletak di Yogyakarta, Candi Hindu terbesar di Indonesia yang didedikasikan untuk Trimurti. Relief yang indah dibuat pada masa dinasti zaman hindu di Indonesia.
             </p>
           </div>
         </div>
@@ -31,9 +29,7 @@ const Content = () => {
           <div className="max-w-md">
             <h1 className="mb-5 text-4xl font-bold uppercase">Bali</h1>
             <p className="mb-5 text-sm">
-              Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-              excepturi exercitationem quasi. In deleniti eaque aut repudiandae
-              et a id nisi.
+              Bali dikenal dengan pantai-pantai indah, kebudayaan yang kaya, dan kehidupan malam yang semarak. Pulau ini juga menawarkan berbagai atraksi seperti upacara adat dan surga dunia.
             </p>
           </div>
         </div>
@@ -47,9 +43,7 @@ const Content = () => {
           <div className="max-w-md">
             <h1 className="mb-5 text-4xl font-bold uppercase">Labuan Bajo</h1>
             <p className="mb-5 text-sm">
-              Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-              excepturi exercitationem quasi. In deleniti eaque aut repudiandae
-              et a id nisi.
+              Terletak di ujung barat Pulau Flores, Nusa Tenggara Timur. Dikenal sebagai pintu gerbang pulau naga. Daerah ini terkenal dengan diving spot yang luar biasa.
             </p>
           </div>
         </div>
@@ -63,9 +57,7 @@ const Content = () => {
           <div className="max-w-md">
             <h1 className="mb-5 text-4xl font-bold uppercase">Bromo</h1>
             <p className="mb-5 text-sm">
-              Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-              excepturi exercitationem quasi. In deleniti eaque aut repudiandae
-              et a id nisi.
+              Gunung berapi aktif yang terletak di Jawa Timur. Bagian dari Taman Nasional Bromo Tengger Semeru, gunung ini terkenal dengan pemandangan matahari terbit yang spektakuler.
             </p>
           </div>
         </div>
